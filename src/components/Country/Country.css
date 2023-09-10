@@ -4,3 +4,21 @@
     padding: 20px;
     border-radius: 10px;
 }
+
+.flag {
+    padding: 20px;
+}
+
+.country-name {
+    color: rgb(0, 150, 0);
+    font-size: 30px;
+}
+
+.keys-style {
+    color: rgb(0, 0, 0);
+}
+
+.details {
+    color: rgb(136, 136, 136);
+    font-size: 21px;
+}
