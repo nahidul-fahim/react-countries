@@ -3,7 +3,7 @@
 }
 
 .country {
-    border: 2px solid rgb(74, 169, 182);
+    border: 2px solid rgb(110, 238, 255);
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
@@ -12,7 +12,7 @@
 
 .country:hover {
     border: 2px solid rgb(110, 238, 255);
-    box-shadow: 0 0 50px rgba(110, 238, 255, 0.425);
+    box-shadow: 0 0 50px rgb(192, 248, 255);
 }
 
 .country-code {
@@ -36,6 +36,28 @@
 .details {
     color: rgb(136, 136, 136);
     font-size: 21px;
+}
+
+.primary-btn {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(0, 183, 255);
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    transition: all 300ms;
+}
+.primary-btn:hover {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(0, 46, 65);
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
 }
 
 .visited-btn {
