@@ -16,7 +16,7 @@ const Country = ({country, hadleVisitedCountry}) => {
             <h4 className='details'><span className='keys-style'>Capital City:</span> {capital} </h4>
             <h4 className='details'> <span className='keys-style'>Population:</span> {population} </h4>
             <img className='flag' src={flags?.png} alt="" />
-            <button onClick={() => hadleVisitedCountry (country.name?.common)} className='primary-btn'>Mark Visited</button>
+            <button onClick={() => hadleVisitedCountry (country)} className='primary-btn'>Mark Visited</button>
             <button onClick={handleVisited} className= {visited ? 'visited-btn' : 'not-visited-btn'} >Visit Status!</button>
         </div>
     );
